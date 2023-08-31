@@ -2,25 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: ""
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: left
+  image: headshot.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: true # includes a list of news items
+latest_posts: false # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a senior at [the University of Pennsylvania](https://www.upenn.edu/), where I am extremely fortunate to research under the Vellvm Project with my CIS senior thesis advisor, [Dr. Steve Zdancewic](https://www.cis.upenn.edu/~stevez/). For Vellvm and my senior thesis, I am working on building property-based testing, specifically LLVM code-generation infrastructure, in Coq using QuickChick. I am also fortunate to research with my Wharton Research Scholar Thesis advisor, [Dr. Sanjeev Khanna](https://www.cis.upenn.edu/~sanjeev/). For my Wharton honors thesis, I am working on finding more graph classes in which there is an efficient solution for the knapsack problem with precedence constraint.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am pursuing an [uncoordinated dual bachelor's degree](https://undergrad-inside.wharton.upenn.edu/dual-degree-wharton/) between [Networked and Social Systems Engineering (NETS)](https://www.nets.upenn.edu/) at the School of Engineering and Applied Science and [Business Analytics](https://statistics.wharton.upenn.edu/programs/undergraduate/business-analytics-joint-concentration/) at the Wharton School. I am also submatriculating into an MSE degree in [Computer and Information Science](https://www.cis.upenn.edu/graduate/program-offerings/mse-in-cis/). I'm fortunate to have [Dr. Andreas Haeberlen](https://haeberlen.cis.upenn.edu/) as my academic advisor, who provided me with invaluable suggestions that tremendously enhanced my experience at Penn.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+If you have any questions regarding Penn or other things, please feel free to contact me.
