@@ -64,6 +64,31 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Published papers -->
+    {% if page.published_papers %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Published Work</a>
+      </h2>
+      {% include published_papers.liquid %}
+    {% endif %}
+
+    <!-- Thesis -->
+    {% if page.thesis %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Thesis</a>
+      </h2>
+      {% include thesis.liquid %}
+    {% endif %}
+
+    <!-- Unpublished papers -->
+    {% if page.unpublished_papers %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Unpublished Work</a>
+      </h2>
+      {% include unpublished_papers.liquid %}
+    {% endif %}
+
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">
