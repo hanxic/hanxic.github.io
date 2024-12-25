@@ -23,6 +23,10 @@ $light-purple-color: color.adjust($purple-color, $lightness: 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #efcc00 !default;
+$lavender-color: #827ab3;
+$eastbay-color:#48497f;
+$portage-color: #a195f9;
+$helitrope-color: #b98dfc;
 
 $grey-color: #828282 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);
@@ -31,6 +35,14 @@ $grey-900: #212529;
 
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
+
+$palette-4-color: #f5efe7;
+$palette-3-color: #d8c4b6;
+$palette-2-color: #3e5879;
+$palette-1-color: #213555;
+		  
+				    
+
 
 // Theme colors
 
