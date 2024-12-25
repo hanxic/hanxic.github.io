@@ -34,6 +34,17 @@ abstract = {The Vellvm project is an extensive undertaking to formalize a large 
 In this talk we will explore the difficulties that come up when attempting to formalize a large real world language. We’ll touch upon how proof assistants like Coq can reveal issues in informal specifications, how testing tools like QuickChick can help bridge the gap between informal real-world implementations and our formal Coq semantics, and we will also touch upon aspects of the LLVM IR could be updated to better suit verification efforts. Furthermore, we’ll discuss some of the challenges we have encountered along the way, including limitations with the Coq type system, extraction bugs, and performance issues for proofs and extracted code.},
 }
 
+@article{calvin_vellvm_20252,
+title = {Vellvm: {Formalizing} the {Informal}},
+author = {Beck, Calvin and Chen, Hanxi and Zdancewic, Steve},
+month = jan,
+journal = {Submitted to NFM 2025},
+published = {false},
+unpublished = {true},
+year = {2025},
+abstract = {This report presents our methodology for and experience with formalizing a specification of LLVM IR in the Verified LLVM Project (Vellvm). The project aims to mechanize a large, practical subset of LLVM IR in the Coq/Rocq Proof Assistant in the support of verified compilers and program transformations. The methodology implements the semantics via monadic interpreters, which rely on a coinductively- defined data structure called itrees, and a two-phase memory model that provides low-level operations, such as pointer-to-integer casts. Crucially, this methodology supports the extraction of an executable interpreter, proved to refine the specification. We use the reference interpreter to validate the accuracy of the formalization, employing random differen- tial testing between Clang and Vellvm implemented in our own LLVM IR program generator (GenLLVM), as well as via state-of-the-art C compiler testing frameworks (CSmith and YARPGen). Such testing has found bugs in both the Vellvm semantics and Clang. We believe that tools from the Vellvm project can be useful for other LLVM IR-related projects, and that the overall methodology applies to other formal verification efforts.},
+}
+
 @article{chen_2024,
 title = {Random Differential Testing at the LLVM IR Level},
 author = {Chen, Hanxi},
